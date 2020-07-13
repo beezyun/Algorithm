@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// https://www.acmicpc.net/problem/1436
 // Silver 5 영화감독 숌
 public class BOJ_1436 {
 
