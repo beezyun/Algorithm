@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// https://www.acmicpc.net/problem/2231
 // Bronze 2 분해합
 public class BOJ_2231 {
 
