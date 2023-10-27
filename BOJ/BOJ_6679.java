@@ -1,9 +1,10 @@
+// https://www.acmicpc.net/problem/6679
+// Bronze 2 싱기한 네자리 숫자
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-// https://www.acmicpc.net/problem/6679
-// Bronze 2 싱기한 네자리 숫자
 public class BOJ_6679 {
 
 	public static void main(String[] args) {
