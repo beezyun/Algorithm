@@ -1,7 +1,8 @@
-import java.util.Scanner;
-
 // https://www.acmicpc.net/problem/1436
 // Silver 5 영화감독 숌
+
+import java.util.Scanner;
+
 public class BOJ_1436 {
 
 	public static void main(String[] args) {
