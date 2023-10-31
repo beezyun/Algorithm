@@ -1,7 +1,8 @@
-import java.util.Scanner;
-
 // https://www.acmicpc.net/problem/1748
 // Silver 3 수 이어 쓰기 1
+
+import java.util.Scanner;
+
 public class BOJ_1748 {
 
 	public static void main(String[] args) {
