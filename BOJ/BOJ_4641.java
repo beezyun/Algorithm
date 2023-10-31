@@ -1,7 +1,8 @@
-import java.util.Scanner;
-
 // https://www.acmicpc.net/problem/4641
 // Bronze 1 Doubles
+
+import java.util.Scanner;
+
 public class BOJ_4641 {
 
 	public static void main(String[] args) {
