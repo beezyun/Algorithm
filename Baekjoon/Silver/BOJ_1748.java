@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/1748
-// Silver 3 수 이어 쓰기 1
+// Silver 4 수 이어 쓰기 1
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class BOJ_1748 {
 		/*
 		for (int i = 1; i <= num; i++) {
 			digit += Integer.toString(i).length();	// 메모리 초과
-			digit += (int)(Math.log10(i) + 1);		// 시간 초과
+			digit += (int)(Math.log10(i) + 1);	// 시간 초과
 		}
 		*/
 		
