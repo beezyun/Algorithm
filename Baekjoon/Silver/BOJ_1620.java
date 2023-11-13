@@ -3,6 +3,7 @@
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
@@ -46,21 +47,27 @@ public class BOJ_1620 {
         int pokemonNum = Integer.parseInt(st.nextToken());
         int problemNum = Integer.parseInt(st.nextToken());
 
-        ArrayList pokemonArr = new ArrayList<String>();
-        ArrayList resultArr = new ArrayList<String>();
+        // key가 번호, value가 포켓폰 이름인 HashMap
+        HashMap<Integer, String> pokemonNameMap = new HashMap<Integer, String>();
+        // key가 포켓몬 이름, value가 번호인 HashMap
+        HashMap<String, Integer> pokemonNumMap = new HashMap<String, Integer>();
 
+        // 포켓몬 도감 HashMap에 입력
         for (int i = 0; i < pokemonNum; i++) {
-            String pokemonName = br.readLine();
-            pokemonArr.add(pokemonName);
+            String str = br.readLine();
+            pokemonNameMap.put(i + 1, str);
+            pokemonNumMap.put(str, i + 1);
         }
 
         for (int i = 0; i < problemNum; i++) {
             String str = br.readLine();
 
             if(isString(str)) {
-                sb.append(pokemonArr.indexOf(str) + 1);
+                // 포켓몬 이름으로 번호 찾기
+                sb.append(pokemonNumMap.get(str));
             } else {
-                sb.append(pokemonArr.get(Integer.parseInt(str) - 1));
+                // 포켓몬 번호로 이름 찾기
+                sb.append(pokemonNameMap.get(Integer.parseInt(str)));
             }
             sb.append("\n");
         }
