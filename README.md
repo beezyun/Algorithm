@@ -1,2 +1,2 @@
 # Algorithm
-Studying for Algorithms
+Learning Algorithms
