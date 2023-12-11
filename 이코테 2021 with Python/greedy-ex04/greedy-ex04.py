@@ -31,10 +31,3 @@ print(group)
 #         count = 0 # 현재 그룹에 포함된 모험가의 수 초기화
 
 # print(result)
-
-
-
-
-
-
-# 답안 예시
