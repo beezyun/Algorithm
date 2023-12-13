@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class Solution {
+class Solution {
     public int[] solution(int []arr) {
         int[] answer;
         ArrayList<Integer> answerTmp = new ArrayList<>();
